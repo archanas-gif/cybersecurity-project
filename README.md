@@ -35,6 +35,9 @@ cybersecurity-project/
 │   ├── model.py
 │   ├── utils.py
 │
+├── images/
+│   └── output.png
+│
 ├── main.py
 ├── requirements.txt
 └── README.md
@@ -58,6 +61,7 @@ python main.py
 - 🔺 Attack detected alerts
 - 🟢 Normal traffic classification
 - 📈 Graph visualization of network traffic
+- ![output Graph](images/output.png)
 
 ---
 
