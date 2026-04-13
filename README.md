@@ -61,7 +61,6 @@ python main.py
 - 🔺 Attack detected alerts
 - 🟢 Normal traffic classification
 - 📈 Graph visualization of network traffic
-- ![output Graph](images/output.png)
 
 ---
 
@@ -78,6 +77,8 @@ This project uses:
 
 - Scatter plot showing Normal vs Attack traffic
 - Alerts printed in terminal
+-  ![output Graph](images/output.png)
+
 
 ---
 
