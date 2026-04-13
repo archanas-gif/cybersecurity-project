@@ -1,68 +1,96 @@
-\# 🔐 AI-Powered Cybersecurity Threat Detection
+🔐 AI-Powered Cybersecurity Threat Detection System
 
-
-
-\## 📌 Overview
+📌 Overview
 
 This project detects anomalies in network traffic using Machine Learning.
+It classifies traffic as Normal or Attack based on behavior patterns like packet count and duration.
 
+---
 
+🚀 Features
 
-\## 🚀 Features
+- Detects cyber attacks using AI
+- Uses Isolation Forest algorithm
+- Real-time anomaly detection
+- Visualizes normal vs attack traffic
+- Generates classification summary
 
-\- Detects cyber attacks using AI
+---
 
-\- Uses Isolation Forest algorithm
+🛠️ Technologies Used
 
-\- Visualizes normal vs attack traffic
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
 
+---
 
+📂 Project Structure
 
-\## 🛠️ Technologies Used
+cybersecurity-project/
+│
+├── src/
+│   ├── data_loader.py
+│   ├── model.py
+│   ├── utils.py
+│
+├── main.py
+├── requirements.txt
+└── README.md
 
-\- Python
+---
 
-\- Pandas
+▶️ How to Run
 
-\- Scikit-learn
+1️⃣ Install dependencies
 
-\- Matplotlib
+pip install -r requirements.txt
 
+2️⃣ Run the project
 
+python main.py
 
-\## 📊 Output
+---
 
-\- Attack Detection Alerts
+📊 Output
 
-\- Graph Visualization
+- 🔺 Attack detected alerts
+- 🟢 Normal traffic classification
+- 📈 Graph visualization of network traffic
 
-\- Classification Summary
+---
 
+🧠 Model Used
 
+This project uses:
 
-\## ▶️ How to Run
+- Isolation Forest Algorithm
+- Unsupervised learning for anomaly detection
 
-1\. Install libraries:
+---
 
-&#x20;  pip install -r requirements.txt
+📸 Sample Output
 
+- Scatter plot showing Normal vs Attack traffic
+- Alerts printed in terminal
 
+---
 
-2\. Run project:
+💡 Future Improvements
 
-&#x20;  python main.py
+- Add real-time network data input
+- Integrate with dashboard (Streamlit)
+- Improve model accuracy with more features
 
+---
 
-
-\## 📷 Sample Output
-
-\- Attack detected ⚠️
-
-\- Normal traffic ✅
-
-
-
-\## 👩‍💻 Author
+👩‍💻 Author
 
 Archana
 
+---
+
+⭐ If you like this project
+
+Give it a ⭐ on GitHub!
